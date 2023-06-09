@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+
+    <title>booking</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="image/uj train.png" alt="company logo" />
+        <a href="index.html">Home</a>
+        <!-- <a href="booking.html">My booking</a> -->
+        <a class="active" href="home.html">booking</a>
+        <!-- <a href="login.html">Log in</a> -->
+        <a href="about.html">about us</a>
+      </nav>
+    </header>
+    <main>
+      <form id="form1" action="/api" method="post">
+        <div class="signform">
+          <div class="signhead">
+            <h1>reserve your ticket</h1>
+          </div>
+
+          <div class="from-to">
+            <p>
+              <label>
+                From:
+                <select id="fromm" name="from">
+                  <option>Jeddah</option>
+                  <option>Makkah</option>
+                  <option>Madina</option>
+                </select>
+              </label>
+
+              <label>
+                To:<select id="tooo" name="to">
+                  <option>Makkah</option>
+                  <option>Jeddah</option>
+                  <option>Madina</option>
+                </select>
+              </label>
+            </p>
+          </div>
+
+          <div class="dep-return">
+            <p>
+              <label
+                >Departure: <input type="date" id="depdate" name="dep" required
+              /></label>
+            </p>
+          </div>
+
+          <div class="aud-chi">
+            <p>
+              <label
+                >Children:
+                <select id="chil" name="children">
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </label>
+
+              <label
+                >Adults:
+                <select id="adu" name="adults">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </label>
+            </p>
+          </div>
+
+          <div class="submit-but">
+            <p>
+              <label><input type="submit" /></label>
+              <label><input type="reset" value="Reset" /></label>
+            </p>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <a href="https://www.instagram.com"
+        ><img src="image/instagram_logo.jpg" alt="instagram logo"
+      /></a>
+
+      <a href="https://twitter.com"
+        ><img src="image/twitter_logo.jpg" alt="twitter logo"
+      /></a>
+
+      <a href="https://wsend.co/966508201011">
+        <img src="image/whatsapp_logo.jpg" alt="whatsapp logo"
+      /></a>
+
+      <p>
+        Copyright © 2023 UjTrain.com Limited and its affiliated companies. All
+        rights reserved.
+      </p>
+    </footer>
+
+    <script src="js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../image/back.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* header */
+
+header nav {
+  text-align: center;
+  background-color: rgb(78, 131, 183);
+  padding: 24px;
+  border: 1px solid black;
+  margin: auto;
+}
+header img {
+  max-width: 80px;
+  width: 20%;
+}
+header nav a {
+  /* font-size: 24px; */
+  color: white;
+  padding: 24px;
+  margin: auto;
+}
+
+header nav a:hover {
+  background-color: blue;
+}
+
+.active {
+  background-color: blue;
+}
+
+main {
+  background-color: cadetblue;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  /* margin-top: 50px; */
+  padding: 10px;
+
+  /* margin-top: 0cm; */
+}
+main img {
+  width: 40%;
+  max-width: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav input {
+  background-color: dodgerblue;
+
+  width: 200px;
+  font-size: large;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(78, 131, 183);
+}
+footer p {
+  font-family: "Times New Roman", Times, serif;
+}
